@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #0F0F0F;
+    color: white;
+    font-family: 'Inter';
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header img {
+    margin-top: 25px;
+    width: 120px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a :hover {
+    color: #8C77E0;
+}
+
+#ass1 {
+    margin: -4px;
+}
+
+#voc2 {
+    margin: -1px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+form input {
+    background-color: #7F7F7F;
+    border-radius: 25px;
+    padding: 9px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 0px;
+    color: white;
+}
+#butao1 {
+    background-color: #8C77E0;
+    color: white;
+    border-radius: 25px;
+    margin: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: large;
+    box-sizing: border-box;
+    height: 33px;
+    cursor: pointer;
+}
+
+#parag1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+#butao2 {
+    background-color: #8C77E0;
+    color: white;
+    border-radius: 25px;
+    margin: 10px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: large;
+    box-sizing: border-box;
+    height: 33px;
+    margin-left: 60px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+
+    header {
+        width: auto;
+    }
+}
